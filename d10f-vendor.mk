@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 # Camera (CM-11.0):
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/jsr/d10f/proprietary/vendor/lib/hw/camera.msm8226.so:system/vendor/lib/hw/camera.msm8226.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:system/vendor/lib/hw/camera.vendor.msm8226.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
