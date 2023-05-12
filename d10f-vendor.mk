@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
 # FM (OnePlus OPR6.170623.013)
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/jsr/d10f/armani/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+    vendor/jsr/d10f/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
 
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
