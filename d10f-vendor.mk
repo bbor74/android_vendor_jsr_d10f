@@ -16,13 +16,13 @@
 
 # Sensors (HighScreen Boost IIse V2.8/2.9)
 PRODUCT_COPY_FILES += \
-    vendor/jsr/d10f/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/jsr/d10f/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/jsr/d10f/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libhscdtd.so:system/vendor/lib/libhscdtd.so
 
 # Camera (CM-11.0):
 PRODUCT_COPY_FILES += \
-    vendor/jsr/d10f/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/jsr/d10f/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/jsr/d10f/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/jsr/d10f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/jsr/d10f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -157,21 +157,21 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_COPY_FILES += \
-    vendor/jsr/d10f/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/jsr/d10f/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/jsr/d10f/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/jsr/d10f/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/jsr/d10f/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/jsr/d10f/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/jsr/d10f/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/jsr/d10f/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/jsr/d10f/proprietary/bin/radish:system/bin/radish \
-    vendor/jsr/d10f/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/jsr/d10f/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/jsr/d10f/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/jsr/d10f/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/jsr/d10f/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/jsr/d10f/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/jsr/d10f/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/jsr/d10f/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/jsr/d10f/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/jsr/d10f/proprietary/vendor/bin/location-mq:system/vendor/bin/location-mq \
+    vendor/jsr/d10f/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
+    vendor/jsr/d10f/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/jsr/d10f/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/jsr/d10f/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/jsr/d10f/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/jsr/d10f/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
+    vendor/jsr/d10f/proprietary/vendor/bin/rmt_storage:systemvendor//bin/rmt_storage \
+    vendor/jsr/d10f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/jsr/d10f/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/jsr/d10f/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/jsr/d10f/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
