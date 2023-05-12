@@ -164,6 +164,11 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
+# FM (OnePlus OPR6.170623.013)
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/jsr/d10f/armani/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/jsr/d10f/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
@@ -328,4 +333,5 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     com.qualcomm.services.location \
     TimeService \
-    QSensorTest
+    QSensorTest \
+    vendor.qti.hardware.fm@1.0
