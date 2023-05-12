@@ -156,6 +156,14 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
 endif
 
+# Media (TheMuppets Motorola msm8226-common)
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
+
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/jsr/d10f/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
