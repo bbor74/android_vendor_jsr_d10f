@@ -54,7 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/jsr/d10f/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/jsr/d10f/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
 
 # Hardware-specific camera libs (CM-11.0):
 # HighScreen Boost IIse rev.A/rev.B, i-mobile IQ 6.3 MAIN:
