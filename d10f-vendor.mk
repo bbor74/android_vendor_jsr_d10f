@@ -213,7 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/jsr/d10f/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/jsr/d10f/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -299,9 +298,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
