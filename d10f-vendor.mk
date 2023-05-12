@@ -23,11 +23,11 @@ PRODUCT_COPY_FILES += \
 # Camera (CM-11.0):
 PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/jsr/d10f/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
-    vendor/jsr/d10f/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/jsr/d10f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/jsr/d10f/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/jsr/d10f/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/hw/camera.msm8226.so:system/vendor/lib/hw/camera.msm8226.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
@@ -214,9 +214,9 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/jsr/d10f/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/jsr/d10f/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/jsr/d10f/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/jsr/d10f/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/jsr/d10f/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
