@@ -128,9 +128,9 @@ PRODUCT_COPY_FILES += \
     
 # Camera firmware (Innos D10F 3.1)
 PRODUCT_COPY_FILES += \
-    vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw    
+    vendor/jsr/d10f/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/jsr/d10f/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/jsr/d10f/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw    
 
 # Graphics (https://github.com/TheMuppets/proprietary_vendor_qcom_binaries/commit/4e0d5a1975230da8b83efbeddb62e42636a0ba64)
 ifeq ($(QCPATH),)
@@ -187,26 +187,26 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/jsr/d10f/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/jsr/d10f/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/jsr/d10f/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/jsr/d10f/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/jsr/d10f/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/jsr/d10f/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/jsr/d10f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/jsr/d10f/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b07:system/vendor/firmware/wcnss.b07 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
+    vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/jsr/d10f/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/jsr/d10f/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/jsr/d10f/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
