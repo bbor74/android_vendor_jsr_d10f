@@ -180,7 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/jsr/d10f/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/jsr/d10f/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
-    vendor/jsr/d10f/proprietary/vendor/bin/rmt_storage:systemvendor//bin/rmt_storage \
+    vendor/jsr/d10f/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/jsr/d10f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/jsr/d10f/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/jsr/d10f/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
