@@ -322,6 +322,11 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/jsr/d10f/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
+# aptX (Moto griffin - NCLS25.86-11-4-6-5)
+PRODUCT_COPY_FILES += \
+    vendor/jsr/d10f/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so
+
 PRODUCT_PACKAGES += \
     libqminvapi \
     libtime_genoff \
