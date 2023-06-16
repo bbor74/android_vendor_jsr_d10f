@@ -1,10 +1,10 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -183,8 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/jsr/d10f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/jsr/d10f/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/jsr/d10f/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
-    vendor/jsr/d10f/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/jsr/d10f/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -214,11 +212,8 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/jsr/d10f/proprietary/vendor/etc/gps.conf:system/vendor/etc/gps.conf \
     vendor/jsr/d10f/proprietary/vendor/etc/izat.conf:system/vendor/etc/izat.conf \
-    vendor/jsr/d10f/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/jsr/d10f/proprietary/vendor/etc/quipc.conf:system/vendor/etc/quipc.conf \
     vendor/jsr/d10f/proprietary/vendor/etc/sap.conf:system/vendor/etc/sap.conf \
-    vendor/jsr/d10f/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/jsr/d10f/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/jsr/d10f/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/jsr/d10f/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
@@ -237,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
@@ -269,9 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/jsr/d10f/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_eeprom.so:system/vendor/lib/libmmcamera_ov9760_eeprom.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libmmcamera_ov9760_q1v05a.so:system/vendor/lib/libmmcamera_ov9760_q1v05a.so \
@@ -291,8 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/jsr/d10f/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -306,12 +295,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/jsr/d10f/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/jsr/d10f/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/jsr/d10f/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/jsr/d10f/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -330,8 +314,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqminvapi \
     libtime_genoff \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
     TimeService \
     QSensorTest \
     vendor.qti.hardware.fm@1.0
