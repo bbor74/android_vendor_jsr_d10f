@@ -222,7 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/jsr/d10f/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/jsr/d10f/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
+    vendor/jsr/d10f/proprietary/vendor/lib/sensors.d10f.so:system/vendor/lib/sensors.d10f.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
