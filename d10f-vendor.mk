@@ -215,10 +215,10 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
     vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
     vendor/jsr/d10f/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
-    vendor/jsr/d10f/proprietary/vendor/etc/gps.conf:system/vendor/etc/gps.conf \
-    vendor/jsr/d10f/proprietary/vendor/etc/izat.conf:system/vendor/etc/izat.conf \
-    vendor/jsr/d10f/proprietary/vendor/etc/quipc.conf:system/vendor/etc/quipc.conf \
-    vendor/jsr/d10f/proprietary/vendor/etc/sap.conf:system/vendor/etc/sap.conf \
+    vendor/jsr/d10f/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/jsr/d10f/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/jsr/d10f/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/jsr/d10f/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/jsr/d10f/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/jsr/d10f/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/jsr/d10f/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
